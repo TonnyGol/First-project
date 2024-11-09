@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini calculator</title>
+    
+    
 </head>
 <body>
-    <p>Hello</p>
+    <input id="num1" placeholder="enter number 1">
+    <br>
+    <br>
+    <input id="num2" placeholder="enter number 2">
+    <br>
+    <br>
+    <span>
+        <button id="plusB" onclick="calculateFunc(this.id)">+</button>
+        <button id="minusB" onclick="calculateFunc(this.id)">-</button>
+        <button id="multiB" onclick="calculateFunc(this.id)">x</button>
+        <button id="divideB" onclick="calculateFunc(this.id)">:</button>
+    </span>
+    <br>
+    <br>
+    <p id="result"></p>
+    <script src="index.js"></script>
 </body>
 </html>
